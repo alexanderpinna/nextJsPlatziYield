@@ -1,28 +1,31 @@
 {
-    "complierOptions":{
-        "baseUrl": "src",
-        "path":{
-            "@pages/*": [
-                "pages/*"
-            ],
-            "@components/*": [
-                "components/*"
-            ],
-            "@containers/*": [
-                "containers/*"
-            ],
-            "@icons/*": [
-                "assets/icons/*"
-            ],
-            "@logos/*": [
-                "assets/logos/*"
-            ],
-            "@context/*": [
-                "context/*"
-            ],
-            "@styles/*": [
-                "styles/*"
-            ],
-        }
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@containers/*": [
+        "containers/*"
+      ],
+      "@icons/*": [
+        "assets/icons/*"
+      ],
+      "@logos/*": [
+        "assets/logos/*"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
     }
+  }
 }
